@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style-teladecadastro.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="imagem-formulario">
+            <img src="../assets/img/imagem-teladecadastro.svg" alt="">
+        </div>
+        <div class="formulario">
+            <form action="#" class="editar-formulario">
+                <div class="cabecalho-formulario">
+                    <div class="titulo">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="botao-login">
+                        <button id="botao-entrar"><a>Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="tipo-pessoa">
+                    <div class="opcao-pessoa">
+                        <input type="radio" id="pessoa-fisica" name="tipo-pessoa" value="fisica" checked>
+                        <label for="pessoa-fisica">Pessoa Física</label>
+                    </div>
+                    <div class="opcao-pessoa">
+                        <input type="radio" id="pessoa-juridica" name="tipo-pessoa" value="juridica">
+                        <label for="pessoa-juridica">Pessoa Jurídica</label>
+                    </div>
+                </div>
+
+                <div id="campos-pessoa-fisica">
+                    <div class="grupo-input">
+                        <div class="caixa-input">
+                            <label for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome"
+                                required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="cpf">CPF</label>
+                            <input id="cpf" type="text" name="cpf" placeholder="Digite seu CPF (XXX.XXX.XXX-XX)"
+                                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" title="Digite um CPF no formato XXX.XXX.XXX-XX"
+                                required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="birthdate">Data de Nascimento</label>
+                            <input id="birthdate" type="date" name="birthdate" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="telefone">Telefone</label>
+                            <input id="telefone" type="tel" name="telefone" placeholder="Digite seu telefone" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha"
+                                required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="confirm-password">Confirme a Senha</label>
+                            <input id="confirm-password" type="password" name="confirm-password"
+                                placeholder="Digite novamente sua senha" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="campos-pessoa-juridica" style="display: none;">
+                    <div class="grupo-input">
+                        <div class="caixa-input">
+                            <label for="razao-social">Razão Social</label>
+                            <input id="razao-social" type="text" name="razao-social" placeholder="Digite a razão social"
+                                required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="nome-fantasia">Nome Fantasia</label>
+                            <input id="nome-fantasia" type="text" name="nome-fantasia"
+                                placeholder="Digite o nome fantasia" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="cnpj">CNPJ</label>
+                            <input id="cnpj" type="text" name="cnpj" placeholder="Digite o CNPJ (XX.XXX.XXX/XXXX-XX)"
+                                pattern="\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}"
+                                title="Digite um CNPJ no formato XX.XXX.XXX/XXXX-XX" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="inscricao-estadual">Inscrição Estadual</label>
+                            <input id="inscricao-estadual" type="text" name="inscricao-estadual"
+                                placeholder="Digite a inscrição estadual" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="email-juridico">E-mail</label>
+                            <input id="email-juridico" type="email" name="email-juridico" placeholder="Digite o e-mail"
+                                required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="telefone">Telefone</label>
+                            <input id="telefone" type="tel" name="telefone" placeholder="Digite seu telefone" required>
+                        </div>
+
+
+                        <div class="caixa-input">
+                            <label for="password-juridico">Senha</label>
+                            <input id="password-juridico" type="password" name="password-juridico"
+                                placeholder="Digite a senha" required>
+                        </div>
+
+                        <div class="caixa-input">
+                            <label for="confirm-password">Confirme a Senha</label>
+                            <input id="confirm-password" type="password" name="confirm-password"
+                                placeholder="Digite novamente sua senha" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="botao-continuar">
+                    <button type="submit">Continuar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../assets/js/script-teladecadastro.js"></script>
+</body>
+
+</html>
