@@ -1,0 +1,119 @@
+/* footer-teladousuario.css */
+.footer {
+    background-color: var(--cor-fundo);
+    color: var(--cor-branca);
+    padding: 2rem 0;
+    margin-top: 16rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+    color: var(--cor-primaria);
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: var(--cor-branca);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-section ul li a:hover {
+    color: var(--cor-primaria);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: var(--cor-branca);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    color: var(--cor-primaria);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid var(--cor-destaque);
+    margin-top: 1rem;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem 0; 
+        margin-top: 2rem; 
+    }
+
+    .footer-content {
+        flex-direction: row; 
+        justify-content: space-around; /* Distribui o espaço entre as seções */
+        max-width: 100%; /* Ocupa toda a largura disponível */
+        padding: 0 1rem; /* Reduz o padding lateral */
+        flex-wrap: wrap; /* Permite que as seções quebrem para a próxima linha se necessário */
+    }
+
+    .footer-section {
+        margin: 0.5rem 0; /* Reduz a margem entre as seções */
+        min-width: 150px; /* Reduz a largura mínima das seções */
+        flex: 1; /* Faz as seções ocuparem o espaço disponível igualmente */
+    }
+
+    .footer-section h3 {
+        font-size: 1.2rem; /* Reduz o tamanho do título */
+        margin-bottom: 0.5rem; /* Reduz o espaço abaixo do título */
+    }
+
+    .footer-section ul li {
+        margin-bottom: 0.3rem; /* Reduz o espaço entre os itens da lista */
+    }
+
+    .footer-section ul li a {
+        font-size: 0.9rem; /* Reduz o tamanho do texto dos links */
+    }
+
+    .social-icons a {
+        font-size: 1.2rem; /* Reduz o tamanho dos ícones sociais */
+    }
+
+    .footer-bottom {
+        padding: 0.5rem 0; /* Reduz o padding do rodapé inferior */
+    }
+
+    .footer-bottom p {
+        font-size: 0.8rem; /* Reduz o tamanho do texto do rodapé inferior */
+    }
+}
