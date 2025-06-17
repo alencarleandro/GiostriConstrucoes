@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cf5185a-ef4a-43fb-883d-714bc1001f24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/config/MercadoPagoConfiguracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/config/MercadoPagoConfiguracao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/controller/MercadoPagoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/controller/MercadoPagoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/controller/request/PagamentoComCartaoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/controller/request/PagamentoComCartaoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/service/MercadoPagoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/service/MercadoPagoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/MercadoPagoConfiguracao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/MercadoPagoConfiguracao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/MercadoPagoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/PagamentoComCartaoRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/PagamentoComCartaoRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/MercadoPagoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/MercadoPagoService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ua3SHnirrhWYoPTIkpRKkUlFvG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DevApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Dev.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DevApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Repositorios/pmg-es-2025-1-ti3-9545100-giostri-construcoes/Codigo/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.DevApplication">
+    <configuration name="Dev" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="zulu-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="dev" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="GiostriConstrucoes.dev.DevApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="dev" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="GiostriConstrucoes.dev.DevApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GiostriConstrucoes.dev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DevApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cf5185a-ef4a-43fb-883d-714bc1001f24" name="Changes" comment="" />
+      <created>1742472858946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742472858946</updated>
+      <workItem from="1742472860406" duration="556000" />
+      <workItem from="1742473528667" duration="22000" />
+      <workItem from="1743781640180" duration="450000" />
+      <workItem from="1743784670856" duration="2170000" />
+      <workItem from="1744207891401" duration="39000" />
+      <workItem from="1744231287144" duration="1089000" />
+      <workItem from="1744239656090" duration="306000" />
+      <workItem from="1744658124032" duration="717000" />
+      <workItem from="1745614691432" duration="2091000" />
+      <workItem from="1745879890104" duration="3657000" />
+      <workItem from="1745966823677" duration="82000" />
+      <workItem from="1745968032421" duration="104000" />
+      <workItem from="1746048295606" duration="2390000" />
+      <workItem from="1747168381448" duration="14714000" />
+      <workItem from="1747183968952" duration="1722000" />
+      <workItem from="1747255301563" duration="17793000" />
+      <workItem from="1747338884374" duration="6119000" />
+      <workItem from="1747365054143" duration="1548000" />
+      <workItem from="1747434923463" duration="304000" />
+      <workItem from="1747437009771" duration="3631000" />
+      <workItem from="1747519029115" duration="3142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.AnnotationException" package="org.hibernate" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
