@@ -6,9 +6,90 @@
   <component name="ChangeListManager">
     <list default="true" id="5cf5185a-ef4a-43fb-883d-714bc1001f24" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiostriConstrucoes/dev/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/DevApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/JwtUserData$JwtUserDataBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/JwtUserData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/MercadoPagoConfiguracao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/PdfGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/RelatorioFinanceiroResumo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/SecurityFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/config/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/CarrinhoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/MercadoPagoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/PedidoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/ProdutoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/ProdutosFavoritosController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/RelatorioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/EnderecoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/EnvioCarrinhoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/FavoritoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/FinalizarCarrinhoRequest$FinalizarCarrinhoRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/FinalizarCarrinhoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/PagamentoComCartaoRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/PagamentoComPixRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/UsuarioAlterarSenhaRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/UsuarioLogarRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/UsuarioRedefinirSenhaRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/request/UsuarioRegistrarRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/response/UsuarioLoginResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/controller/util/ControllerCore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Carrinho$CarrinhoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Carrinho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/CarregarPedidoDTO$CarregarPedidoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/CarregarPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/CarregarProdutosDoPedidoDTO$CarregarProdutosDoPedidoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/CarregarProdutosDoPedidoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/EnderecoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/ItemDeCarrinhoDTO$ItemDeCarrinhoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/ItemDeCarrinhoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/MeusPedidosDTO$MeusPedidosDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/MeusPedidosDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/ProdutoDTO$ProdutoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/ProdutoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/StatusDTO$StatusDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/StatusDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/UsuarioDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/DTO/alteracaoCarrinhoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Endereco$EnderecoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/ItemDeCarrinho$ItemDeCarrinhoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/ItemDeCarrinho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/ItemDePedido$ItemDePedidoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/ItemDePedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Pedido$PedidoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Produto$ProdutoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Usuario$UsuarioBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/enums/EPedidoStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/util/GerenciavelSimples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/util/itemPedidoPK$itemPedidoPKBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/model/util/itemPedidoPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/CarrinhoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/EnderecoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/ItemDeCarrinhoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/ItemDePedidoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/PedidoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/ProdutoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/repository/UsuarioRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/CarrinhoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/FavoritosService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/MercadoPagoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/PedidoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/ProdutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/RelatorioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/service/UsuarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/util/IDataUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiostriConstrucoes/dev/util/IValidadorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dev-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dev-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +108,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alencarleandro"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alencarleandro&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alencarleandro/GiostriConstrucoes.git",
-    "accountId": "0581bfce-5a93-45b9-be42-df47a4aabaa3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alencarleandro/GiostriConstrucoes.git&quot;,
+    &quot;accountId&quot;: &quot;0581bfce-5a93-45b9-be42-df47a4aabaa3&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -58,6 +139,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.DevApplication.executor": "Run",
+    "Maven.dev [clean,package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -75,10 +157,31 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DevApplication">
+    <configuration name="DevApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GiostriConstrucoes.dev.DevApplication" />
+      <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GiostriConstrucoes.dev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DevApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="dev" />
@@ -113,6 +216,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DevApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
